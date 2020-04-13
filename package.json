@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
+  "name": "convert-markdown-to-confluence-markup",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Convert markdown to Confluence markup",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
@@ -10,21 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/gabrieltaylyr/convert-markdown-to-confluence-markup.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
     "JavaScript"
   ],
-  "author": "GitHub",
+  "author": "Gabriel Taylor Russ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/gabrieltaylor/convert-markdown-to-confluence-markup/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/gabrieltaylor/convert-markdown-to-confluence-markup#readme",
   "dependencies": {
-    "@actions/core": "^1.1.1"
+    "@actions/core": "^1.1.1",
+    "markdown3confluence-cws": "github:connected-world-services/markdown2confluence-cws"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5",

@@ -1,13 +1,12 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'Convert markdown'
+description: 'Convert markdown to Confluence markup'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  markdown:
+    description: 'Markdown to convert to Confluence markup'
     required: true
-    default: '1000'
 outputs:
-  time: # output will be available to future steps 
-    description: 'The message to output'
+  confluence_markup:
+    description: 'Content converted to Confluence markup'
 runs:
   using: 'node12'
   main: 'dist/index.js'
