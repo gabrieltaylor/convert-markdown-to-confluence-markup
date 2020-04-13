@@ -58,9 +58,9 @@ const markdown2confluence = __webpack_require__(926);
 
 async function run() {
   try {
-    const markup = core.getInput('markup');
+    const markdown = core.getInput('markdown');
 
-    core.debug(markup)
+    core.debug(markdown)
     core.setOutput('confluence_markup', markdown2confluence(markdown));
   }
   catch (error) {
