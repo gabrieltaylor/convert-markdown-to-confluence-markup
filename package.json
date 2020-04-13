@@ -25,7 +25,7 @@
   "homepage": "https://github.com/gabrieltaylor/convert-markdown-to-confluence-markup#readme",
   "dependencies": {
     "@actions/core": "^1.1.1",
-    "markdown3confluence-cws": "github:connected-world-services/markdown2confluence-cws"
+    "markdown2confluence-cws": "github:connected-world-services/markdown2confluence-cws"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5",
